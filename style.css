@@ -113,26 +113,30 @@ button, input:focus, select:focus {
 }
 
 .links, .links a {
+  align-items: center;
   color: #8e8e8e;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   font-size: 12px;
   font-weight: 400;
+  justify-content: center;
   margin: 0 8px;
 }
-
 
 .languages-content {
   background: white;
   border: none;
   color: #8e8e8e;
   font-size: 12px;
+  margin-top: 15px;
   padding: 0 5px;
 }
 
 .copyright {
   font-size: 12px;
   margin-left: 20px;
+  margin-top: 15px;
 }
 
 @media (max-width : 875px) {
