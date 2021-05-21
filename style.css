@@ -15,10 +15,15 @@ a {
   font-weight: 700;
 }
 
+button, input:focus, select:focus {
+  outline: 0 auto -webkit-focus-ring-color;
+  outline-offset: 0;
+}
+
 .main-content {
   align-items: center;
   display: flex;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   width: 100vw;
 }
@@ -43,12 +48,12 @@ a {
 }
 
 .phone-image {
-  height: 700px;
+  height: 630px;
 }
 
 .instagram-logo {
   margin: 22px auto;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   width: 175px;
 }
 
@@ -74,7 +79,7 @@ a {
   font-weight: 700;
   height: 30px;
   padding: 5px 15px;
-  width: 240px;
+  width: 280px;
 }
 
 .switch-account-content {
@@ -96,6 +101,37 @@ a {
 
 .store-image {
   height: 40px;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 5vh;
+  justify-content: space-around;
+}
+
+.links, .links a {
+  color: #8e8e8e;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 8px;
+}
+
+
+.languages-content {
+  background: white;
+  border: none;
+  color: #8e8e8e;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.copyright {
+  font-size: 12px;
+  margin-left: 20px;
 }
 
 @media (max-width : 875px) {
